@@ -102,4 +102,14 @@ So here is some sort of command for running mongo shell.
 
 ```
 
-### Insert Data :
+### Delete documents :
+
+```js
+    # deleteOne(condition)  // Used to remove a single document from the collection
+    1. db.`collectionName`.deleteOne({_id:ObjectId("")})
+
+    # deleteMany(condition) // Used to remove a multiple document from the collection
+
+    2. db.`collectionName`.deleteMany({brand:'Miazi-farm'})
+
+```
