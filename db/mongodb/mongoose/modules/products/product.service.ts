@@ -1,0 +1,1 @@
+// Mongoose builtin method for post, get, will be here. e.g products.save()

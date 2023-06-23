@@ -1,0 +1,1 @@
+// All controller function will appear here. we will call the function which is inside service.ts file as req, res
